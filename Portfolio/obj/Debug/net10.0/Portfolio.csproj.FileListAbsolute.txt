@@ -15,7 +15,6 @@ C:\Users\JK\Documents\Cindy\Portfolio\obj\Debug\net10.0\Portfolio.AssemblyInfoIn
 C:\Users\JK\Documents\Cindy\Portfolio\obj\Debug\net10.0\Portfolio.AssemblyInfo.cs
 C:\Users\JK\Documents\Cindy\Portfolio\obj\Debug\net10.0\Portfolio.csproj.CoreCompileInputs.cache
 C:\Users\JK\Documents\Cindy\Portfolio\obj\Debug\net10.0\Portfolio.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\JK\Documents\Cindy\Portfolio\obj\Debug\net10.0\Portfolio.sourcelink.json
 C:\Users\JK\Documents\Cindy\Portfolio\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\JK\Documents\Cindy\Portfolio\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\JK\Documents\Cindy\Portfolio\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
