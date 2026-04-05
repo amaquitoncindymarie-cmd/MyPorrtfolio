@@ -1,10 +1,10 @@
-.nav-header {
+.nav-header[b-fw0lmtliz2] {
     padding: 2.5rem 2rem 1.5rem 2rem;
     border-bottom: 1px solid #eae6e1;
     margin-bottom: 1rem;
 }
 
-.brand {
+.brand[b-fw0lmtliz2] {
     font-size: 1.8rem;
     font-weight: 300;
     letter-spacing: 3px;
@@ -15,7 +15,7 @@
     text-align: center;
 }
 
-.brand-sub {
+.brand-sub[b-fw0lmtliz2] {
     display: block;
     font-size: 0.7rem;
     letter-spacing: 2px;
@@ -25,14 +25,14 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
-.nav-links {
+.nav-links[b-fw0lmtliz2] {
     padding: 1rem 0;
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
 }
 
-.nav-link {
+.nav-link[b-fw0lmtliz2] {
     padding: 0.85rem 2rem;
     color: #8a7e72;
     text-decoration: none;
@@ -44,14 +44,14 @@
     border-radius: 4px;
 }
 
-.nav-link:hover {
+.nav-link:hover[b-fw0lmtliz2] {
     color: #4a4238;
     background: #faf7f4;
     border-left-color: #c4b6a8;
     padding-left: 2.2rem;
 }
 
-.nav-link.active {
+.nav-link.active[b-fw0lmtliz2] {
     color: #4a4238;
     background: #faf7f4;
     border-left-color: #8a7e72;
@@ -59,36 +59,36 @@
 }
 
 @media (max-width: 768px) {
-    .nav-header {
+    .nav-header[b-fw0lmtliz2] {
         padding: 1rem 1.5rem;
         text-align: center;
     }
     
-    .brand {
+    .brand[b-fw0lmtliz2] {
         font-size: 1.5rem;
     }
     
-    .nav-links {
+    .nav-links[b-fw0lmtliz2] {
         padding: 0.5rem 0;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
     }
     
-    .nav-link {
+    .nav-link[b-fw0lmtliz2] {
         padding: 0.6rem 1.2rem;
         margin: 0.25rem;
         border-left: none;
         border-bottom: 2px solid transparent;
     }
     
-    .nav-link:hover {
+    .nav-link:hover[b-fw0lmtliz2] {
         padding-left: 1.2rem;
         border-left-color: transparent;
         border-bottom-color: #c4b6a8;
     }
     
-    .nav-link.active {
+    .nav-link.active[b-fw0lmtliz2] {
         border-left-color: transparent;
         border-bottom-color: #8a7e72;
     }

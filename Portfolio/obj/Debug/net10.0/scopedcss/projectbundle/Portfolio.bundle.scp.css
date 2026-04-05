@@ -1,0 +1,324 @@
+/* /Components/Layout/MainLayout.razor.rz.scp.css */
+.page[b-6s3h03cu1w] {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar[b-6s3h03cu1w] {
+    width: 300px;
+    background: #fefbf8;
+    border-right: 1px solid #eae6e1;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
+
+main[b-6s3h03cu1w] {
+    flex: 1;
+    margin-left: 300px;
+    background: #ffffff;
+}
+
+.top-row[b-6s3h03cu1w] {
+    padding: 1.5rem 2.5rem;
+    border-bottom: 1px solid #f0ede8;
+    text-align: right;
+    font-size: 0.8rem;
+    color: #a69c94;
+    letter-spacing: 0.3px;
+}
+
+.content[b-6s3h03cu1w] {
+    padding: 2rem 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .sidebar[b-6s3h03cu1w] {
+        width: 100%;
+        height: auto;
+        position: relative;
+        border-right: none;
+        border-bottom: 1px solid #eae6e1;
+    }
+    
+    main[b-6s3h03cu1w] {
+        margin-left: 0;
+    }
+    
+    .content[b-6s3h03cu1w] {
+        padding: 1.5rem;
+    }
+    
+    .top-row[b-6s3h03cu1w] {
+        padding: 1rem 1.5rem;
+    }
+}
+
+#blazor-error-ui[b-6s3h03cu1w] {
+    background: #faf6f2;
+    color: #a69c94;
+    bottom: 0;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    display: none;
+    border-top: 1px solid #eae6e1;
+    font-size: 0.85rem;
+}
+/* /Components/Layout/NavMenu.razor.rz.scp.css */
+.nav-header[b-fw0lmtliz2] {
+    padding: 2.5rem 2rem 1.5rem 2rem;
+    border-bottom: 1px solid #eae6e1;
+    margin-bottom: 1rem;
+}
+
+.brand[b-fw0lmtliz2] {
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #4a4238;
+    text-decoration: none;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    display: block;
+    text-align: center;
+}
+
+.brand-sub[b-fw0lmtliz2] {
+    display: block;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    color: #b8aea4;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.nav-links[b-fw0lmtliz2] {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.nav-link[b-fw0lmtliz2] {
+    padding: 0.85rem 2rem;
+    color: #8a7e72;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+    transition: all 0.25s ease;
+    border-left: 3px solid transparent;
+    margin: 0 1rem;
+    border-radius: 4px;
+}
+
+.nav-link:hover[b-fw0lmtliz2] {
+    color: #4a4238;
+    background: #faf7f4;
+    border-left-color: #c4b6a8;
+    padding-left: 2.2rem;
+}
+
+.nav-link.active[b-fw0lmtliz2] {
+    color: #4a4238;
+    background: #faf7f4;
+    border-left-color: #8a7e72;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .nav-header[b-fw0lmtliz2] {
+        padding: 1rem 1.5rem;
+        text-align: center;
+    }
+    
+    .brand[b-fw0lmtliz2] {
+        font-size: 1.5rem;
+    }
+    
+    .nav-links[b-fw0lmtliz2] {
+        padding: 0.5rem 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .nav-link[b-fw0lmtliz2] {
+        padding: 0.6rem 1.2rem;
+        margin: 0.25rem;
+        border-left: none;
+        border-bottom: 2px solid transparent;
+    }
+    
+    .nav-link:hover[b-fw0lmtliz2] {
+        padding-left: 1.2rem;
+        border-left-color: transparent;
+        border-bottom-color: #c4b6a8;
+    }
+    
+    .nav-link.active[b-fw0lmtliz2] {
+        border-left-color: transparent;
+        border-bottom-color: #8a7e72;
+    }
+}
+/* /Components/Layout/ReconnectModal.razor.rz.scp.css */
+.components-reconnect-first-attempt-visible[b-g2z3n77jqs],
+.components-reconnect-repeated-attempt-visible[b-g2z3n77jqs],
+.components-reconnect-failed-visible[b-g2z3n77jqs],
+.components-pause-visible[b-g2z3n77jqs],
+.components-resume-failed-visible[b-g2z3n77jqs],
+.components-rejoining-animation[b-g2z3n77jqs] {
+    display: none;
+}
+
+#components-reconnect-modal.components-reconnect-show .components-reconnect-first-attempt-visible[b-g2z3n77jqs],
+#components-reconnect-modal.components-reconnect-show .components-rejoining-animation[b-g2z3n77jqs],
+#components-reconnect-modal.components-reconnect-paused .components-pause-visible[b-g2z3n77jqs],
+#components-reconnect-modal.components-reconnect-resume-failed .components-resume-failed-visible[b-g2z3n77jqs],
+#components-reconnect-modal.components-reconnect-retrying[b-g2z3n77jqs],
+#components-reconnect-modal.components-reconnect-retrying .components-reconnect-repeated-attempt-visible[b-g2z3n77jqs],
+#components-reconnect-modal.components-reconnect-retrying .components-rejoining-animation[b-g2z3n77jqs],
+#components-reconnect-modal.components-reconnect-failed[b-g2z3n77jqs],
+#components-reconnect-modal.components-reconnect-failed .components-reconnect-failed-visible[b-g2z3n77jqs] {
+    display: block;
+}
+
+
+#components-reconnect-modal[b-g2z3n77jqs] {
+    background-color: white;
+    width: 20rem;
+    margin: 20vh auto;
+    padding: 2rem;
+    border: 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 3px 6px 2px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: display 0.5s allow-discrete, overlay 0.5s allow-discrete;
+    animation: components-reconnect-modal-fadeOutOpacity-b-g2z3n77jqs 0.5s both;
+    &[open]
+
+{
+    animation: components-reconnect-modal-slideUp-b-g2z3n77jqs 1.5s cubic-bezier(.05, .89, .25, 1.02) 0.3s, components-reconnect-modal-fadeInOpacity-b-g2z3n77jqs 0.5s ease-in-out 0.3s;
+    animation-fill-mode: both;
+}
+
+}
+
+#components-reconnect-modal[b-g2z3n77jqs]::backdrop {
+    background-color: rgba(0, 0, 0, 0.4);
+    animation: components-reconnect-modal-fadeInOpacity-b-g2z3n77jqs 0.5s ease-in-out;
+    opacity: 1;
+}
+
+@keyframes components-reconnect-modal-slideUp-b-g2z3n77jqs {
+    0% {
+        transform: translateY(30px) scale(0.95);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes components-reconnect-modal-fadeInOpacity-b-g2z3n77jqs {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes components-reconnect-modal-fadeOutOpacity-b-g2z3n77jqs {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.components-reconnect-container[b-g2z3n77jqs] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#components-reconnect-modal p[b-g2z3n77jqs] {
+    margin: 0;
+    text-align: center;
+}
+
+#components-reconnect-modal button[b-g2z3n77jqs] {
+    border: 0;
+    background-color: #6b9ed2;
+    color: white;
+    padding: 4px 24px;
+    border-radius: 4px;
+}
+
+    #components-reconnect-modal button:hover[b-g2z3n77jqs] {
+        background-color: #3b6ea2;
+    }
+
+    #components-reconnect-modal button:active[b-g2z3n77jqs] {
+        background-color: #6b9ed2;
+    }
+
+.components-rejoining-animation[b-g2z3n77jqs] {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+    .components-rejoining-animation div[b-g2z3n77jqs] {
+        position: absolute;
+        border: 3px solid #0087ff;
+        opacity: 1;
+        border-radius: 50%;
+        animation: components-rejoining-animation-b-g2z3n77jqs 1.5s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    }
+
+        .components-rejoining-animation div:nth-child(2)[b-g2z3n77jqs] {
+            animation-delay: -0.5s;
+        }
+
+@keyframes components-rejoining-animation-b-g2z3n77jqs {
+    0% {
+        top: 40px;
+        left: 40px;
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+
+    4.9% {
+        top: 40px;
+        left: 40px;
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+
+    5% {
+        top: 40px;
+        left: 40px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+        width: 80px;
+        height: 80px;
+        opacity: 0;
+    }
+}

@@ -1,7 +1,40 @@
 ﻿@page "/"
+@layout MainLayout
 
-<PageTitle>Home</PageTitle>
+<div class="hero-section">
+    <div class="hero-content">
+        <div class="image-frame">
+            <img src="images/cindy.jpg" alt="Cindy Amaquiton" class="profile-pic" />
+        </div>
+        
+        <h1 class="hero-title">Cindy Amaquiton</h1>
+        <p class="hero-subtitle">BSIT Student at CTU Daanbantayan</p>
+        <p class="hero-location">Cortihan, Tapilon, Daanbantayan, Cebu</p>
+        
+        <div class="button-group">
+            <NavLink class="btn btn-primary" href="/about">Discover My Journey</NavLink>
+            <NavLink class="btn btn-outline" href="/projects">View Projects</NavLink>
+        </div>
+    </div>
+</div>
 
-<h1>Hello, world!</h1>
+<div class="stats-section">
+    <div class="stat-item">
+        <span class="stat-number">19</span>
+        <span class="stat-label">Years Old</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+        <span class="stat-number">2024</span>
+        <span class="stat-label">Started IT</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+        <span class="stat-number">1st</span>
+        <span class="stat-label">Generation Student</span>
+    </div>
+</div>
 
-Welcome to your new app.
+<div class="quote-section">
+    <p class="quote-text">"Still figuring things out, but showing up every day."</p>
+</div>
